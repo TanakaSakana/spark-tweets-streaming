@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object collect {
   def main(args: Array[String]) {
 
-    val filters = Array("結城友奈","エミリア")
+    val filters = Array("data science")
     //val filers = "ThisIsSparkStreamingFilter_100K_per_Second"
 
     val delimeter = "|"

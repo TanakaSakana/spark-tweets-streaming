@@ -1,13 +1,12 @@
-package com.dekra.spark.twitter
+package com.spark.twitter
 
 import java.io._
 import java.text.SimpleDateFormat
 
 import org.apache.hadoop.fs.Path
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.rdd.RDD
 import org.apache.spark.streaming.twitter.TwitterUtils
-import org.apache.spark.streaming.{Minutes, Seconds, StreamingContext}
+import org.apache.spark.streaming.{Minutes, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 import twitter4j.Status
 import twitter4j.auth.OAuthAuthorization

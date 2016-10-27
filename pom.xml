@@ -4,24 +4,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dekra.spark-twitter</groupId>
+    <groupId>com.spark.twitter</groupId>
     <artifactId>spark-twitter</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <spark.version>2.0.1</spark.version>
     </properties>
 
-    <dependency>
-        <groupId>org.twitter4j</groupId>
-        <artifactId>twitter4j-core</artifactId>
-        <version>4.0.4</version>
-    </dependency>
-    <dependency>
-        <groupId>org.twitter4j</groupId>
-        <artifactId>twitter4j-stream</artifactId>
-        <version>4.0.4</version>
-    </dependency>
     <dependencies>
+        <dependency>
+            <groupId>org.twitter4j</groupId>
+            <artifactId>twitter4j-core</artifactId>
+            <version>4.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.twitter4j</groupId>
+            <artifactId>twitter4j-stream</artifactId>
+            <version>4.0.4</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-streaming_2.11 -->
         <dependency>
             <groupId>org.apache.spark</groupId>
